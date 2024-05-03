@@ -1,56 +1,50 @@
 {
     "workflowApiVersion": "1.1",
     "metaData": {
-      "icon": "images/ca.png",
-      "category": "customer"
+        "icon": "images/ca.png",
+        "category": "customer"
     },
     "type": "REST",
     "lang": {
-      "en-US": {
-        "name": "CA_TEST",
-        "description": "CA_TEST"
-      }
+        "en-US": {
+            "name": "CA_TEST",
+            "description": "CA_TEST"
+        }
     },
     "arguments": {
-      "execute": {
-        "inArguments": [],
-        "outArguments": [],
-        "url": "https://ca-test.onrender.com/execute"
-      }
+        "execute": {
+            "inArguments": [],
+            "outArguments": [],
+            "url": "https://ca-test.onrender.com/execute"
+        }
     },
     "configurationArguments": {
-      "save": {
-        "url": "https://ca-test.onrender.com/save"
-      },
-      "publish": {
-        "url": "https://ca-test.onrender.com/publish"
-      },
-      "validate": {
-        "url": "https://ca-test.onrender.com/validate"
-      },
-      "stop": {
-        "url": "https://ca-test.onrender.com/stop"
-      }
+        "save": {
+            "url": "https://ca-test.onrender.com/save"
+        },
+        "publish": {
+            "url": "https://ca-test.onrender.com/publish"
+        },
+        "validate": {
+            "url": "https://ca-test.onrender.com/validate"
+        },
+        "stop": {
+            "url": "https://ca-test.onrender.com/stop"
+        }
     },
-    "wizardSteps": [
-      { "label": "Step 1", "key": "step1" },
-      { "label": "Step 2", "key": "step2" },
-      { "label": "Step 3", "key": "step3" },
-      { "label": "Step 4", "key": "step4", "active": false }
-    ],
     "userInterfaces": {
-      "configModal": {
-        "height": 200,
-        "width": 300,
-        "fullscreen": true
-      }
+        "configModal": {
+            "height": 700,
+            "width": 1200,
+            "fullscreen": true
+        }
     },
     "schema": {
-      "arguments": {
-        "execute": {
-          "inArguments": [],
-          "outArguments": []
+        "arguments": {
+            "execute": {
+                "inArguments": [],
+                "outArguments": []
+            }
         }
-      }
     }
-  }
+}
