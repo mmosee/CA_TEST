@@ -15,21 +15,21 @@
       "execute": {
         "inArguments": [],
         "outArguments": [],
-        "url": "https://some-endpoint.com/execute"
+        "url": "https://ca-test.onrender.com/execute"
       }
     },
     "configurationArguments": {
       "save": {
-        "url": "URI/for/your/activity/save"
+        "url": "https://ca-test.onrender.com/save"
       },
       "publish": {
-        "url": "URI/for/your/activity/publish"
+        "url": "https://ca-test.onrender.com/publish"
       },
       "validate": {
-        "url": "URI/for/your/activity/validate"
+        "url": "https://ca-test.onrender.com/validate"
       },
       "stop": {
-        "url": "URI/for/your/activity/stop"
+        "url": "https://ca-test.onrender.com/stop"
       }
     },
     "wizardSteps": [
